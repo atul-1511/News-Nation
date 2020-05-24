@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 
+
 def url_generator(state,page_number):
     url = []
     j = 2
