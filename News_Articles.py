@@ -10,6 +10,7 @@ Indian_States = ["andhra-pradesh","arunachal-pradesh","assam","bihar","chhattisg
                  "orissa","punjab","rajasthan","sikkim","tamil-nadu","telangana","tripura",
                  "uttar-pradesh","uttarakhand","west-bengal"]
 
+
 page_number = 1
 
 url = url_generator(Indian_States,page_number)
