@@ -63,7 +63,7 @@ def len_text(text):
   else:
          return 0
 
-df_news  = pd.read_json(r"C:\Users\Atul Kumar\Downloads\News_Category_Dataset_v2.json", lines = True)
+df_news  = pd.read_json(r"C:\Users\Atul Kumar\Downloads\Training Dataset.json", lines = True)
 df_news.category = df_news.category.map(lambda x: "WORDPOST" if x == "THE WORDPOST" else x)
 
 cols = ["authors","link","short_description","date"]
